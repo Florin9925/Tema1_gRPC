@@ -49,9 +49,10 @@ def get_age(cnp):
 
 
 def get_gender(cnp):
-    if cnp[0] % 2 == 1:
+    if int(cnp[0]) % 2 == 1:
         return 'man'
     return 'woman'
+
 
 if __name__ == '__main__':
     logging.basicConfig()
